@@ -1,0 +1,15 @@
+node_modules
+.next
+.DS_Store
+
+# local env (keep .env.example tracked)
+.env
+.env*.local
+
+# tooling artifacts
+.playwright-mcp
+*.log
+*.tsbuildinfo
+
+# local tooling config
+.claude
