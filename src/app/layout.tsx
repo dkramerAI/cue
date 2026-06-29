@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     url: siteUrl,
   },
-  twitter: { card: "summary", title: BRAND.name, description: BRAND.description },
+  twitter: { card: "summary_large_image", title: BRAND.name, description: BRAND.description },
   icons: { icon: "/icon.svg", apple: "/apple-icon.svg" },
 };
 
