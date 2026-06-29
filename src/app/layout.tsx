@@ -4,7 +4,7 @@ import { AppToaster } from "@/components/AppToaster";
 import { BRAND } from "@/lib/brand";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cue.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ics-generator-wqrw.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
